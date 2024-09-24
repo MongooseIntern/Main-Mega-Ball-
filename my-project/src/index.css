@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  
+}
+.family-selectnum{
+ font-size: 22px;
+ line-height: 32px;
+ color:#0D3B54 ; 
+ opacity: 80%;
+ font-family: "Barlow", sans-serif;
+ font-weight: 300;
+ font-style: normal;
+display: flex;
+flex-direction: row;
+
+}
+
+
+ 
+  .Heading-Text{
+    font-size: 22px;
+    font-weight:600;
+    line-height: 32;
+  }
+.btn{
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:2px solid #B6C2C8;
+  color: #0D3B54;
+  opacity: 80%;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  
+}
+
+
+.mainball {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.mainball:hover{
+background: linear-gradient(#D4AC54, #FFDEAC, #E3BA5D);
+}
+
+.main-selected {
+  background-image: linear-gradient(#D4AC54, #FFDEAC, #E3BA5D);
+  color: black;
+}
+
+
+
+.megaball{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+ 
+}
+.megaball:hover{
+  background-color:#F44A33 ;
+  }
+  .megaball-selected {
+    background-color:#F44A33 ;
+    color: white;
+  }
+
+.button-grid button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.selected-display {
+  margin-top: 20px;
+}
+
+.selected-number {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
